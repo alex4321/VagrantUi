@@ -1,6 +1,6 @@
 #!/bin/sh
 cd ..
-rm -rf qtermwidget/build
+rm -rf qtermwidget
 rm *.o
 rm vagrantui
 rm moc*

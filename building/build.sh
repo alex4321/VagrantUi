@@ -1,5 +1,6 @@
 #!/bin/sh
 cd ..
+git clone https://github.com/qterminal/qtermwidget
 mkdir qtermwidget/build
 cd qtermwidget/build
 cmake .. -DUSE_QT5=true -DBUILD_DESIGNER_PLUGIN=0
