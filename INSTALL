@@ -1,0 +1,9 @@
+Requirements:
+	Qt5
+
+Build:
+	cd building
+	sudo su
+	./build.sh (will produce files in install directory)
+	./install.sh (generate and install *.deb package)
+	./clean.sh (will remove temp files)

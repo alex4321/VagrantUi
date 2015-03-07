@@ -1,0 +1,7 @@
+Package: vagrantui
+Version: 0.1.0
+Architecture: amd64
+Maintainer: gaussmake1994@gmail.com
+Depends: vagrant
+Priority: optional
+Description: GUI for vagrant virtual machine manager.

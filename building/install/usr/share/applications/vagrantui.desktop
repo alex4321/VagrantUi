@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=VagrantUi
+GenericName=UI for Vagrant
+Comment=UI for Vagrant virtual machines management software
+Exec=vagrantui
+Terminal=false
+Icon=vagrantui
+Type=Application
+Categories=Emulator;Utility;
+Version=1.0
