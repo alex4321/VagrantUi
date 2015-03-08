@@ -5,7 +5,11 @@
 #include <QMainWindow>
 #include <QPushButton>
 #include <QVector>
-#include <qtermwidget5/qtermwidget.h>
+#ifdef Q_OS_WIN32
+    #include "windowsterminal/qtermwidget.h"
+#else
+    #include <qtermwidget5/qtermwidget.h>
+#endif
 
 namespace Ui {
 class MainWindow;

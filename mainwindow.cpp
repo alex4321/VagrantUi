@@ -97,7 +97,7 @@ void MainWindow::terminalInitialize(QTermWidget *terminal)
 {
     this->ui->shellContainer->layout()->addWidget(terminal);
     #ifdef Q_OS_WIN32
-        terminal->setShellProgram("cmd");
+        terminal->setShellProgram("cmd.exe");
     #else
         terminal->setShellProgram("sh");
         terminal->setArgs(QString("-i").split(" "));
